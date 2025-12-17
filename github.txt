@@ -1,0 +1,72 @@
+1. create github repo in github
+
+2. clone repo -> git clone <url>
+
+3. git status 
+
+4. git add <filename>
+
+5. git commit -m "message"
+
+6. git push origin <name>
+
+7. git pull 
+
+8. git fetch
+
+9. git merge
+
+git push
+
+git commit -a 
+
+git init
+
+touch one.txt
+
+git reset --hard <id>
+
+git reflog
+
+git revert [id]
+
+:q
+
+git cherry-pick [id]
+
+git branch -M main
+
+git remote add origin
+
+git push origin
+
+
+------------------working with branch ----------------------
+
+git switch -c dev
+
+git switch main
+
+git merge dev
+
+git rebase
+
+git rebase dev
+
+git checkout [branchName]
+
+git push origin dev
+
+git push origin HEAD:dev
+
+git rebase -i [id]
+
+pick -> squash
+
+:w :q :q!
+
+git stash
+
+git stash pop
+
+
